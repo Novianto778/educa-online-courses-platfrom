@@ -1,0 +1,7 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.header-menu {
+  @apply mr-8 cursor-pointer text-gray-700 hover:text-black transition duration-200 ease-in-out;
+}
