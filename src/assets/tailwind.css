@@ -1,7 +1,54 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
 
 .header-menu {
   @apply mr-8 cursor-pointer text-gray-700 hover:text-black transition duration-200 ease-in-out;
+}
+
+section {
+  margin-top: 90px;
+}
+
+.categories-hover:hover p,
+.categories-hover:hover i,
+.categories-hover:hover h4 {
+  color: white !important;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+
+.slick-slide.slick-center {
+  display: flex;
+  justify-content: center;
+}
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltip-content {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.tooltip:hover .tooltip-content {
+  visibility: visible;
+  opacity: 1;
+}
+
+.dashboard-menu li {
+  @apply block px-6 mt-2 py-2 hover:bg-blue-700 hover:text-white cursor-pointer duration-500 ease-out;
 }

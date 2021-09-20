@@ -5,7 +5,7 @@ const SearchBar = () => {
     <div className="bg-gray-200 w-72 rounded-full relative h-10 items-center flex p-4 cursor-pointer">
       <input
         type="text"
-        className="bg-transparent text-sm text-gray-600"
+        className="bg-transparent text-sm text-gray-600 outline-none"
         placeholder="Search courses..."
       />
 

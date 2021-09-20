@@ -17,6 +17,23 @@ module.exports = {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
       },
+      backgroundImage: (theme) => ({
+        hero: 'url(./img/hero-image.png)',
+      }),
+      maxWidth: {
+        card: '265px',
+      },
+      zIndex: {
+        minus: '-1000',
+      },
+      height: {
+        coverlg: '560px',
+        covermd: '300px',
+        responsive: '90%',
+      },
+      spacing: {
+        responsive: '56.25%',
+      },
     },
   },
   variants: {
